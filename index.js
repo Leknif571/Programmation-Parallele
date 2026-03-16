@@ -1,22 +1,26 @@
-import { getAllInfo } from "./exo-promise-all.js";
-import { getDashboardInfo } from "./exo-promise-allsettled.js";
-import { getRaceInfo } from "./exo-promise-race.js";
-import { getResultAny } from "./exo-promise-any.js";
-
+import { graphExo1, graphExo3 } from "./exoGraph.js";
+import { traitementAsynchroneSimple } from "./exo2.js";
 
 function main() {
 
-    // Exercice Promise.all
-    // getAllInfo();
-    
-    // Exercice Promise.allSettled
-    // getDashboardInfo();
-    
-    // Exercice Promise.race
-    // getRaceInfo();
+    // console.log("test");
 
-    // Exercice Promise.any
-    getResultAny();
+    // Exercice 1
+
+    // graphExo1();
+
+    // Exercice 2
+
+    // traitementAsynchroneSimple();
+
+    // Exercice 3
+
+    // graphExo3();
+
+    // Exercice 4
+    
+    exo4();
+    
 
 }
 
