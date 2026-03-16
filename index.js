@@ -8,7 +8,7 @@ function main() {
 
     // Exercice 1
 
-    // graphExo1();
+    graphExo1();
 
     // Exercice 2
 
@@ -20,7 +20,7 @@ function main() {
 
     // Exercice 4
     
-    exo4();
+    // exo4();
     
 
 }

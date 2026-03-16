@@ -6,6 +6,7 @@ function createPromise(name, timeOut, isRejected) {
                 reject(`Promise ${name} rejected`)
             else 
                 resolve(`Promise ${name} terminer`)
+                console.log(`Promise ${name} terminée`);
         }, timeOut)
     })
 
@@ -15,7 +16,7 @@ function createPromise(name, timeOut, isRejected) {
 
 export async function graphExo1() {
     try {
-        let etapeA = createPromise("A", 500, false);
+        let etapeA = createPromise("A", 200, false);
 
         let etapeB = (async () => {
             await etapeA;
