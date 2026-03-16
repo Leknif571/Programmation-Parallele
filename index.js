@@ -1,5 +1,6 @@
 import { graphExo1, graphExo3 } from "./exoGraph.js";
 import { traitementAsynchroneSimple } from "./exo2.js";
+import { exo4 } from "./exo4.js";
 
 function main() {
 
